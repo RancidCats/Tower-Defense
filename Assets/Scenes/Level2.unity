@@ -16436,13 +16436,16 @@ MonoBehaviour:
   - enemy: {fileID: 6095063352535946162, guid: 94c9541145e131b419996fa67b7cf2df, type: 3}
     count: 15
     rate: 1
-  - enemy: {fileID: 6095063352535946162, guid: 94c9541145e131b419996fa67b7cf2df, type: 3}
-    count: 20
-    rate: 1
+  - enemy: {fileID: 2050456877537368318, guid: d0822fb7d2f63964f86e2ce5be1a6c59, type: 3}
+    count: 3
+    rate: 1.1
   - enemy: {fileID: 6095063352535946162, guid: 94c9541145e131b419996fa67b7cf2df, type: 3}
     count: 25
     rate: 1.3
-  - enemy: {fileID: 6095063352535946162, guid: 94c9541145e131b419996fa67b7cf2df, type: 3}
+  - enemy: {fileID: 4424357820738493480, guid: 95ca0de81c8938448962feacfcd8f1d2, type: 3}
+    count: 3
+    rate: 0.88
+  - enemy: {fileID: 4424357820738493480, guid: 95ca0de81c8938448962feacfcd8f1d2, type: 3}
     count: 1
     rate: 1
   waveIndex: 0
@@ -22994,10 +22997,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cefa74bcfefbe442902844ad326667d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  platformSelect: {fileID: 0}
   barrack: {fileID: 2630744342488303329, guid: 787aedfd036660943a91c03cc72540fe, type: 3}
   archer: {fileID: 514635145480737206, guid: 3842c6cef1e208b4f9cf6d3779e365ca, type: 3}
   wizard: {fileID: 4640812339994502286, guid: 46a60733af2ff574f876e4d4f3d5124c, type: 3}
   cannon: {fileID: 2481782425947251940, guid: 0e5e27fea637b0044aefa25951b40935, type: 3}
+  turretUI: {fileID: 0}
 --- !u!1001 &847692909
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{17BB7AF0-A1AD-DCE4-09CE-1D3A3635465B}</ProjectGuid>
+    <ProjectGuid>{9B282EBB-F650-CE4C-3165-30EC9E911FE9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -86,6 +86,9 @@
     <Compile Include="Assets\Scripts\IEnemy.cs" />
     <Compile Include="Assets\Scripts\Arrow.cs" />
     <Compile Include="Assets\Scripts\BuildTurrets.cs" />
+    <Compile Include="Assets\Scripts\TurretSelectUI.cs" />
+    <Compile Include="Assets\Scripts\PunkRat.cs" />
+    <Compile Include="Assets\Scripts\FatRat.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -753,7 +756,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AmplifyShaderEditor.csproj">
-      <Project>{522B32EF-2759-2C60-52E7-EC7B16314087}</Project>
+      <Project>{3BCE51D2-6B20-81E0-DF0C-F34700093582}</Project>
       <Name>AmplifyShaderEditor</Name>
     </ProjectReference>
   </ItemGroup>

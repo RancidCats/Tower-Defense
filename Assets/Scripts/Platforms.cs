@@ -6,6 +6,7 @@ public class Platforms : MonoBehaviour
     public Color notEnough;
     public GameObject turret;
     public GameObject buildEffect;
+    public Vector3 position;
     private Renderer _rend;
     private Color _startColor;
     private BuildManager _buildManager;
@@ -34,12 +35,14 @@ public class Platforms : MonoBehaviour
     }
     public void OnMouseDown()
     {
-        if (!_buildManager.build)
+        
+        if (turret != null)
         {
             return;
         }
-        if (turret != null)
+        if (!_buildManager.build)
         {
+            _buildManager.SelectPlatform(this);
             return;
         }
         _buildManager.BuildTurret(this);
